@@ -1,10 +1,10 @@
 import React from 'react'
 
-function InputLabelComponent(){
+function InputLabelComponent({label, placeholder}){
     return (
         <>
-          <label>HOLA</label>
-          <input type="text"/>
+          <label>{label}</label>
+          <input type="text" placeholder={placeholder}/>
         </>
       );
 }
