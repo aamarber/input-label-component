@@ -1,0 +1,5 @@
+@use '../colors';
+
+input{
+    border: solid colors.$border-color 3px;
+}
